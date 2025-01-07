@@ -50,7 +50,10 @@ This project focuses on building a machine learning model to predict customer ch
 - The model achieved high accuracy and recall, demonstrating its effectiveness in predicting customer churn.
 - Feature importance analysis revealed critical factors influencing churn, such as `MonthlyCharges` and `Contract` type.
 - **Analysed impact of each feature on Churn**:
-<img src="Assets/Happy_face.png" width=250 height=200>
+<img src="Assets/Analysis.png" width=750 height=600>
+- Interpretation:
+- Features at the top of the y-axis are the most important, as permuting them caused the largest drop in accuracy.
+- Features with values close to zero on the x-axis are less important, as shuffling them had little impact on the model's performance.
 
 ## **Installation and Usage**
 1. Clone the repository:
