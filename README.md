@@ -55,25 +55,6 @@ This project focuses on building a machine learning model to predict customer ch
 - Features at the top of the y-axis are the most important, as permuting them caused the largest drop in accuracy.
 - Features with values close to zero on the x-axis are less important, as shuffling them had little impact on the model's performance.
 
-## **Installation and Usage**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/customer-churn-prediction.git
-   cd customer-churn-prediction
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Place the `TelcoCustomerChurn.csv` dataset in the root directory.
-
-4. Run the model training script:
-   ```bash
-   python churn_prediction.py
-   ```
-
 ## **Libraries Used**
 - **Pandas**: Data manipulation and preprocessing.
 - **NumPy**: Numerical computations.
